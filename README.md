@@ -8,7 +8,11 @@ Cebu Code Camp.
 Most of the refactoring examples here, i found from Martin Fowler's
 refactoring book/site. You can find the catalog on this link:
 
-  http://refactoring.com/catalog/
+> http://refactoring.com/catalog/
+
+Additional refactoring notes are:
+
+> http://ghendry.net/refactor.html
 
 ## Setup
 
