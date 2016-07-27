@@ -1,7 +1,9 @@
 require 'thor'
 
-class Hello < Thor
+class HelloCommand < Thor
   include Thor::Actions
+
+  namespace 'hello'
 
   desc 'world', 'Say hello world'
   def world

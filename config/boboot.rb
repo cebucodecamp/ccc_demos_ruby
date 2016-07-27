@@ -23,6 +23,10 @@ end
 module Boboot
   def self.root_path; ROOT_PATH; end
 
+  def self.add_lib_to_load_path
+    File.join(root_path, 'lib').tap { |p| $LOAD_PATH.unshift(p) unless $LOAD_PATH.include?(p) }
+  end
+
   def self.require_relative_gem(gem_name, lib_path)
     require File.join(self.root_path, '..', gem_name, 'lib', lib_path)
   end
@@ -46,3 +50,4 @@ module Boboot
 end
 
 Boboot.disable_rubygem_warns
+Boboot.add_lib_to_load_path
