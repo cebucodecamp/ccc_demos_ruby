@@ -1,0 +1,9 @@
+hostname: <%= hostname %>
+
+<% if owner == 'markj' %>
+owner: Mark John Buenconsejo
+<% else %>
+owner: <%= owner %>
+<% end %>
+
+location: <%= locations[location_code] %>
