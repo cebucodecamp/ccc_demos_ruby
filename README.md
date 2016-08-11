@@ -63,8 +63,8 @@ $ \curl -sSL https://get.rvm.io | bash -s stable
 ### Install and use ruby 2.2
 
 ```
-$ rvm install ruby-2.2.4
-$ rvm ruby-2.2.4 --default
+$ rvm install ruby-2.2.5
+$ rvm ruby-2.2.5 --default
 ```
 
 Then install bundler, to allow use of bundle
@@ -72,3 +72,15 @@ Then install bundler, to allow use of bundle
 ```
 $ gem install bundler
 ```
+
+### Exercism
+
+We love Exercism, if you haven't checked it out yet, please do so by
+visting their website:
+
+    http://exercism.io
+
+Some of the code/problems presented here, are copied verbatim from
+Exercism. All copyrights and ownership goes to that project, and to
+all who worked behind it. We lay no claim, and are very grateful for
+being able to use them here.
